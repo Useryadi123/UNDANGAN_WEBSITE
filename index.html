@@ -3,55 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <title>Undangan Pernikahan</title>
+
     <style>
         body {
             margin: 0;
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             background: #f5f5f5;
             text-align: center;
         }
+
         .container {
-            background: white;
+            background: #ffffff;
             max-width: 500px;
-            margin: auto;
-            padding: 40px 20px;
-            margin-top: 50px;
+            margin: 50px auto;
+            padding: 30px 20px;
             border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
+
+        img.foto {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
         h1 {
             font-size: 28px;
-            margin-bottom: 10px;
+            margin: 10px 0;
         }
+
         p {
             font-size: 16px;
             margin: 6px 0;
         }
+
         .tanggal {
             margin: 20px 0;
             font-weight: bold;
         }
+
         .doa {
             font-style: italic;
             margin-top: 20px;
             font-size: 14px;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #c8a951;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
         }
     </style>
 </head>
+
 <body>
 
 <div class="container">
+
     <p>Undangan Pernikahan</p>
+
+    <!-- FOTO -->
+    <img src="foto.jpeg" class="foto">
+
+    <!-- NAMA -->
     <h1>Arhab & Hana</h1>
 
+    <!-- TANGGAL -->
     <p class="tanggal">Minggu, 20 Juli 2026</p>
 
-    <p>Dengan memohon rahmat dan ridho Allah SWT,<br>
-    kami bermaksud menyelenggarakan pernikahan kami.</p>
+    <!-- DESKRIPSI -->
+    <p>
+        Dengan memohon rahmat dan ridho Allah SWT,<br>
+        kami bermaksud menyelenggarakan pernikahan kami.
+    </p>
 
+    <!-- AYAT -->
     <div class="doa">
-        “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan pasangan-pasangan untukmu…”
+        “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan pasangan-pasangan untukmu
+        agar kamu cenderung dan merasa tenteram kepadanya…”
         <br>(QS. Ar-Rum: 21)
     </div>
+
+    <!-- TOMBOL LOKASI -->
+    <a href="https://maps.google.com" target="_blank" class="btn">
+        📍 Lihat Lokasi
+    </a>
+
 </div>
 
 </body>
